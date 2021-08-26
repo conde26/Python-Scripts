@@ -1,4 +1,4 @@
-#Cambiar nombre en Windows 
+# Cambiar nombre en Windows 
 ## Autor: Jose Conde 
 
 Con el siguiente script, podrás modificar el hostname de tu equipo windows. Para que funcionen
