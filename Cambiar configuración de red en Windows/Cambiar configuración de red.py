@@ -26,7 +26,7 @@ init(); os.system('cls')
 hostname = socket.gethostname()
 local_ip = socket.gethostbyname(hostname)
 
-#Información y variables por 
+#Información y variables por pantalla
 print(Fore.BLUE + "[!]" + Fore.YELLOW + " Tarjetas de red disponibles en el equipo " + Style.RESET_ALL,end=''); subprocess.call(['powershell.exe', 'Get-NetAdapter | Select-Object Name'])
 
 print(Fore.BLUE + "[!]" + Fore.YELLOW + " La IP privada de tu equipo es: " + Style.RESET_ALL + local_ip)
