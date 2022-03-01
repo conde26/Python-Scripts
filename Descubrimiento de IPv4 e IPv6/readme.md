@@ -10,12 +10,11 @@ Esta herramienta desarrolada en python, te permitirá obtener la Ipv4 y la Ipv6 
 #### Parametros 
 - -h) Muestra el panel de ayuda
 - -n | --name) Indicamos el dominio a escanear
-
 #### Ejemplo de uso
 ```Python
 python3 IPDiscover.py -n google.com
 ```
-##### El anterior ejemplo dara una salida similar a la siguiente 
+#### Salida 
 ```Python
 Nombre canónico: GOOGLE.COM
 Dirección IPv4: XXX.XXX.XXX.XXX
