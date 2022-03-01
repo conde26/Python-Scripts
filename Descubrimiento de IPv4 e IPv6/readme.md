@@ -15,7 +15,7 @@ Esta herramienta desarrolada en python, te permitirá obtener la Ipv4 y la Ipv6 
 python3 IPDiscover.py -n google.com
 ```
 #### Salida 
-```bash
+```
 Nombre canónico: GOOGLE.COM
 Dirección IPv4: XXX.XXX.XXX.XXX
 Dirección Ipv6: XXXX:XXXX:XXXX::XXXX
