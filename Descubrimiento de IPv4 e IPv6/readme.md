@@ -1,5 +1,17 @@
-# Descubrimiento de IPv4 e IPv6
+# Descubrir IPv4 e IPv6 de un dominio
 ## Autor: Jose Conde 
 ### IPDiscover.py
 
-Con está herramienta podrás obtener la ip de versión 4 y la ip de versión 6 de cualquier dominio, por ejemplo de google. Actualmente solo tiene un parámetro, poco a poco le iré añadiendo más funcionalidades. Este herramienta que he desarrollado sirve tanto para linux, como para Windows
+Esta herramienta desarrolada en python, te permitirá obtener la Ipv4 y la Ipv6 de cualquier dominio que le indiques, por ejemplo de google.com. Para que la herramienta funcione debemos tener: 
+- **Conexión a Internet**
+- **Adaptador Ipv4 e Ipv6 Habilitados**
+
+### Uso 
+#### Parametros 
+- -h) Muestra el panel de ayuda
+- -n | --name) Indicamos el dominio a escanear
+
+#### Ejemplo de uso
+```Python
+python3 IPDiscover.py -n google.es 
+```
