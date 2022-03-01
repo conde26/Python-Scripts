@@ -13,5 +13,5 @@ Esta herramienta desarrolada en python, te permitirá obtener la Ipv4 y la Ipv6 
 
 #### Ejemplo de uso
 ```Python
-python3 IPDiscover.py -n google.es 
+python3 IPDiscover.py -n google.com
 ```
